@@ -1,0 +1,33 @@
+{
+  "name": "twilio-studio-google-spreadsheet",
+  "version": "1.0.0",
+  "description": "This is a starter repo to demonstrate Google Sheets API and Twilio Studio REST API v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neri78/twilio-studio-google-spreadsheet.git"
+  },
+  "keywords": [
+    "google",
+    "sheets",
+    "api",
+    "twilio",
+    "studio",
+    "flow"
+  ],
+  "author": "neri78",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neri78/twilio-studio-google-spreadsheet/issues"
+  },
+  "homepage": "https://github.com/neri78/twilio-studio-google-spreadsheet#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.11",
+    "twilio": "^3.43.0"
+  }
+}
