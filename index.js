@@ -11,13 +11,13 @@ async function loadShiftPhoneNumbers() {
     await doc.useServiceAccountAuth(credentials);
     await doc.loadInfo();
 
-    // 従業員情報を取得
-    const staffSheet = await doc.sheetsById[process.env.STAFF_WORKSHEET_ID];
-    const staffRows = await staffSheet.getRows();
-
     //シフト情報を取得
     const shiftSheet = await doc.sheetsById[process.env.SHIFT_WORKSHEET_ID];
     const shiftRows = await shiftSheet.getRows();
+
+    // 従業員情報を取得
+    const staffSheet = await doc.sheetsById[process.env.STAFF_WORKSHEET_ID];
+    const staffRows = await staffSheet.getRows();
 
     // [ '5/8/2020', 'Daizen', 'Mitsuharu' ]
     // シフト情報からDate列の値と指定した日付をロケール情報に基づいて取得
