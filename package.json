@@ -27,7 +27,7 @@
   "homepage": "https://github.com/neri78/twilio-studio-google-spreadsheet#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "google-spreadsheet": "^3.0.11",
-    "twilio": "^3.43.0"
+    "google-spreadsheet": "^3.1.15",
+    "twilio": "^3.62.0"
   }
 }
